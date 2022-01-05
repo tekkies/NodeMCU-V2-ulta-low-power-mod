@@ -39,6 +39,16 @@ download the executable.-->
 			<CHARSET>0</CHARSET>
 			<FACENAME>Arial</FACENAME>
 		</FONT>
+		<FONT id='4'>
+			<HEIGHT>-21</HEIGHT>
+			<WIDTH>9</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
 		<STYLE id='2'>
 			<STYLE>0</STYLE>
 			<COLOR>000000</COLOR>
@@ -62,6 +72,11 @@ download the executable.-->
 		<STYLE id='9'>
 			<STYLE>0</STYLE>
 			<COLOR>C0C0C0</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<STYLE id='10'>
+			<STYLE>0</STYLE>
+			<COLOR>0000FF</COLOR>
 			<THICKNESS>1</THICKNESS>
 		</STYLE>
 		<FILL id='0'>
@@ -3492,10 +3507,10 @@ MN[94IQ%?6U!YQYO5FI2*/;(KZYQ.&amp;DJ_8(?WY,&quot;NN./-:ZZF:RN2RL&quot;&gt;-RD5
 			<COLOR_NOTETEXT_LINE>FF0000</COLOR_NOTETEXT_LINE>
 			<COLOR_NOTETEXT_TEXT>FF0000</COLOR_NOTETEXT_TEXT>
 		</OPTIONS>
-		<TEXT pos='2.00000,136.00000' direction='3' font='3' color='000000'>https://github.com/tekkies/NodeMCU-V2-ulta-low-power-mod</TEXT>
-		<TEXT pos='2.00000,4.00000' direction='3' font='3' color='000000'>Programmer-TinyCad.dsn</TEXT>
-		<SYMBOL id='1' pos='50.00000,104.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='0' description='Ref' value='J2' show='1' pos='-5.14005,3.38036'/>
+		<TEXT pos='2.00000,92.00000' direction='3' font='3' color='000000'>https://github.com/tekkies/NodeMCU-V2-ulta-low-power-mod</TEXT>
+		<TEXT pos='2.00000,88.00000' direction='3' font='3' color='000000'>Programmer-TinyCad.dsn</TEXT>
+		<SYMBOL id='1' pos='18.00000,68.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='J1' show='1' pos='-5.14005,3.38036'/>
 			<FIELD type='0' description='Name' value='Remove header pin 16' show='1' pos='-9.00000,-52.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
 			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -3517,8 +3532,8 @@ MN[94IQ%?6U!YQYO5FI2*/;(KZYQ.&amp;DJ_8(?WY,&quot;NN./-:ZZF:RN2RL&quot;&gt;-RD5
 			<HINT pin='8' net='104'/>
 			<HINT pin='9' net='105'/>
 		</SYMBOL>
-		<SYMBOL id='1' pos='84.00000,104.00000' part='0' rotate='5' can_scale='0' show_power='1' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='0' description='Ref' value='J3' show='1' pos='-5.07003,3.73049'/>
+		<SYMBOL id='1' pos='52.00000,68.00000' part='0' rotate='5' can_scale='0' show_power='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='J2' show='1' pos='-5.07003,3.73049'/>
 			<FIELD type='0' description='Name' value='Remove header pin 16' show='1' pos='-19.00000,-52.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
 			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -3540,9 +3555,9 @@ MN[94IQ%?6U!YQYO5FI2*/;(KZYQ.&amp;DJ_8(?WY,&quot;NN./-:ZZF:RN2RL&quot;&gt;-RD5
 			<HINT pin='8' net='120'/>
 			<HINT pin='9' net='121'/>
 		</SYMBOL>
-		<METAFILE a='48.00000,52.00000' b='77.40000,110.00000' id='1'/>
-		<SYMBOL id='1' pos='154.00000,104.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='0' description='Ref' value='J2' show='1' pos='-5.14005,3.38036'/>
+		<METAFILE a='16.00000,16.00000' b='45.40000,74.00000' id='1'/>
+		<SYMBOL id='1' pos='72.00000,68.00000' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='J3' show='1' pos='-5.14005,3.38036'/>
 			<FIELD type='0' description='Name' value='Remove header pin 16' show='1' pos='-9.00000,-52.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
 			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -3555,7 +3570,7 @@ MN[94IQ%?6U!YQYO5FI2*/;(KZYQ.&amp;DJ_8(?WY,&quot;NN./-:ZZF:RN2RL&quot;&gt;-RD5
 			<HINT pin='14' net='167'/>
 			<HINT pin='15' net='168'/>
 			<HINT pin='16' net='169'/>
-			<HINT pin='2' net='1'/>
+			<HINT pin='2' net='185'/>
 			<HINT pin='3' net='99'/>
 			<HINT pin='4' net='157'/>
 			<HINT pin='5' net='113'/>
@@ -3564,8 +3579,8 @@ MN[94IQ%?6U!YQYO5FI2*/;(KZYQ.&amp;DJ_8(?WY,&quot;NN./-:ZZF:RN2RL&quot;&gt;-RD5
 			<HINT pin='8' net='161'/>
 			<HINT pin='9' net='162'/>
 		</SYMBOL>
-		<SYMBOL id='1' pos='188.00000,104.00000' part='0' rotate='5' can_scale='0' show_power='1' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='0' description='Ref' value='J3' show='1' pos='-5.07003,3.73049'/>
+		<SYMBOL id='1' pos='106.00000,68.00000' part='0' rotate='5' can_scale='0' show_power='1' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='J4' show='1' pos='-5.07003,3.73049'/>
 			<FIELD type='0' description='Name' value='Remove header pin 16' show='1' pos='-19.00000,-52.00000'/>
 			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
 			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
@@ -3578,7 +3593,7 @@ MN[94IQ%?6U!YQYO5FI2*/;(KZYQ.&amp;DJ_8(?WY,&quot;NN./-:ZZF:RN2RL&quot;&gt;-RD5
 			<HINT pin='14' net='182'/>
 			<HINT pin='15' net='183'/>
 			<HINT pin='16' net='184'/>
-			<HINT pin='2' net='171'/>
+			<HINT pin='2' net='1'/>
 			<HINT pin='3' net='115'/>
 			<HINT pin='4' net='116'/>
 			<HINT pin='5' net='173'/>
@@ -3587,42 +3602,40 @@ MN[94IQ%?6U!YQYO5FI2*/;(KZYQ.&amp;DJ_8(?WY,&quot;NN./-:ZZF:RN2RL&quot;&gt;-RD5
 			<HINT pin='8' net='176'/>
 			<HINT pin='9' net='177'/>
 		</SYMBOL>
-		<METAFILE a='152.00000,52.00000' b='182.60000,110.00000' id='2'/>
-		<WIRE style='7' a='84.00000,93.00000' b='108.00000,93.00000'/>
-		<WIRE style='7' a='108.00000,93.00000' b='108.00000,32.00000'/>
-		<WIRE style='7' a='108.00000,32.00000' b='208.00000,32.00000'/>
-		<WIRE style='7' a='208.00000,32.00000' b='208.00000,93.00000'/>
-		<WIRE style='7' a='208.00000,93.00000' b='188.00000,93.00000'/>
-		<WIRE style='6' a='112.00000,96.00000' b='84.00000,96.00000'/>
-		<WIRE style='6' a='112.00000,96.00000' b='112.00000,34.00000'/>
-		<WIRE style='6' a='112.00000,34.00000' b='206.00000,34.00000'/>
-		<WIRE style='6' a='206.00000,34.00000' b='206.00000,96.00000'/>
-		<WIRE style='6' a='206.00000,96.00000' b='188.00000,96.00000'/>
-		<WIRE style='8' a='106.00000,69.00000' b='84.00000,69.00000'/>
-		<WIRE style='8' a='106.00000,69.00000' b='106.00000,30.00000'/>
-		<WIRE style='8' a='106.00000,30.00000' b='204.00000,30.00000'/>
-		<WIRE style='8' a='204.00000,30.00000' b='204.00000,69.00000'/>
-		<WIRE style='8' a='204.00000,69.00000' b='188.00000,69.00000'/>
-		<WIRE style='9' a='146.00000,96.00000' b='130.00000,96.00000'/>
-		<WIRE style='9' a='130.00000,96.00000' b='130.00000,122.00000'/>
-		<WIRE style='9' a='130.00000,122.00000' b='28.00000,122.00000'/>
-		<WIRE style='9' a='42.00000,96.00000' b='28.00000,96.00000'/>
-		<WIRE style='9' a='28.00000,96.00000' b='28.00000,122.00000'/>
-		<WIRE style='2' a='138.00000,126.00000' b='230.00000,126.00000'/>
-		<WIRE style='2' a='42.00000,93.00000' b='26.00000,93.00000'/>
-		<WIRE style='2' a='26.00000,93.00000' b='26.00000,126.00000'/>
-		<JUNCTION pos='26.00000,126.00000'/>
-		<WIRE style='2' a='12.00000,126.00000' b='26.00000,126.00000'/>
-		<JUNCTION pos='34.00000,126.00000'/>
-		<WIRE style='2' a='34.00000,126.00000' b='34.00000,99.00000'/>
-		<WIRE style='2' a='26.00000,126.00000' b='34.00000,126.00000'/>
-		<WIRE style='2' a='34.00000,99.00000' b='42.00000,99.00000'/>
-		<WIRE a='84.00000,102.00000' b='122.00000,102.00000'/>
-		<WIRE a='122.00000,102.00000' b='122.00000,90.00000'/>
-		<WIRE a='122.00000,90.00000' b='146.00000,90.00000'/>
-		<WIRE style='2' a='146.00000,99.00000' b='138.00000,99.00000'/>
-		<WIRE style='2' a='138.00000,99.00000' b='138.00000,126.00000'/>
-		<JUNCTION pos='138.00000,126.00000'/>
-		<WIRE style='2' a='34.00000,126.00000' b='138.00000,126.00000'/>
+		<METAFILE a='70.00000,16.00000' b='100.60000,74.00000' id='2'/>
+		<WIRE style='7' a='52.00000,57.00000' b='56.00000,57.00000'/>
+		<WIRE style='7' a='56.00000,57.00000' b='56.00000,10.00000'/>
+		<WIRE style='7' a='56.00000,10.00000' b='116.00000,10.00000'/>
+		<WIRE style='7' a='116.00000,10.00000' b='116.00000,57.00000'/>
+		<WIRE style='7' a='116.00000,57.00000' b='106.00000,57.00000'/>
+		<WIRE style='6' a='58.00000,60.00000' b='52.00000,60.00000'/>
+		<WIRE style='6' a='58.00000,60.00000' b='58.00000,12.00000'/>
+		<WIRE style='6' a='58.00000,12.00000' b='114.00000,12.00000'/>
+		<WIRE style='6' a='114.00000,12.00000' b='114.00000,60.00000'/>
+		<WIRE style='6' a='114.00000,60.00000' b='106.00000,60.00000'/>
+		<WIRE style='8' a='54.00000,33.00000' b='52.00000,33.00000'/>
+		<WIRE style='8' a='54.00000,33.00000' b='54.00000,8.00000'/>
+		<WIRE style='8' a='54.00000,8.00000' b='112.00000,8.00000'/>
+		<WIRE style='8' a='112.00000,8.00000' b='112.00000,33.00000'/>
+		<WIRE style='8' a='112.00000,33.00000' b='106.00000,33.00000'/>
+		<WIRE style='9' a='64.00000,60.00000' b='62.00000,60.00000'/>
+		<WIRE style='9' a='62.00000,60.00000' b='62.00000,82.00000'/>
+		<WIRE style='9' a='62.00000,82.00000' b='4.00000,82.00000'/>
+		<WIRE style='9' a='10.00000,60.00000' b='4.00000,60.00000'/>
+		<WIRE style='9' a='4.00000,60.00000' b='4.00000,82.00000'/>
+		<WIRE style='2' a='10.00000,57.00000' b='2.00000,57.00000'/>
+		<WIRE style='2' a='2.00000,57.00000' b='2.00000,84.00000'/>
+		<WIRE style='2' a='6.00000,84.00000' b='6.00000,63.00000'/>
+		<WIRE style='2' a='2.00000,84.00000' b='6.00000,84.00000'/>
+		<WIRE style='2' a='6.00000,63.00000' b='10.00000,63.00000'/>
+		<WIRE style='10' a='52.00000,66.00000' b='60.00000,66.00000'/>
+		<WIRE style='10' a='60.00000,66.00000' b='60.00000,54.00000'/>
+		<WIRE style='10' a='60.00000,54.00000' b='64.00000,54.00000'/>
+		<WIRE style='2' a='6.00000,84.00000' b='108.00000,84.00000'/>
+		<WIRE style='2' a='108.00000,84.00000' b='108.00000,63.00000'/>
+		<WIRE style='2' a='108.00000,63.00000' b='106.00000,63.00000'/>
+		<TEXT pos='20.00000,78.00000' direction='3' font='4' color='000000'>Programmer</TEXT>
+		<TEXT pos='2.00000,6.00000' direction='3' font='4' color='000000'>Programmer for NodeMCU V2 Ultra-Low Power Mod</TEXT>
+		<JUNCTION pos='6.00000,84.00000'/>
 	</TinyCAD>
 </TinyCADSheets>
