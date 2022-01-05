@@ -1,1 +1,1 @@
-# NodeMCU-Ulta-Low-Power-Mod
+# NodeMCU V2 Ultra-Low Power Mod
