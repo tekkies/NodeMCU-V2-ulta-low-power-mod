@@ -17,5 +17,10 @@ You can hotwire the modified NodeMCU onto a stock NodeMCU to flash or program or
 
 ![Programmer Circuit](programmer/Programmer-TinyCad.png)
 
-## Programmer Strip Board Layout
-![Programmer Circuit](programmer/Programmer-VeeCAD.png)
+## Programmer Strip Board
+
+![Programmer Photo](programmer/Programmer-photo.jpg)
+
+Layout
+
+![Programmer Layout](programmer/Programmer-VeeCAD.png)
